@@ -420,7 +420,7 @@ footer {
     margin-top: -5px;   
     height: 160px; /* Tamanho visual na tela */
     width: auto;
-    image-rendering: crisp-edges; /* Firefox */
+    image-rendering: crisp-edges ; /* Firefox */
     /* image-rendering: pixelated;   Chrome, Edge  Mantém a proporção */
     
     /* TRUQUES PARA NITIDEZ */
