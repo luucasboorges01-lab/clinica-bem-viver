@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clínica Odontológica Bem Viver em Belford Roxo. Implantes, Aparelhos, Clareamento e Emergências. Agende sua consulta pelo WhatsApp.">
+    <meta name="keywords" content="dentista belford roxo, clínica odontológica, implante dentário, aparelho ortodôntico, clareamento dental, dentista são bernardo, emergência dentista">
+    <meta name="author" content="Clínica Bem Viver">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Clínica Bem Viver - Seu Sorriso é Nossa Prioridade">
+    <meta property="og:description" content="Dentistas especializados em Belford Roxo. Tecnologia e atendimento humanizado.">
+    <meta property="og:image" content="link-da-sua-logo-ou-foto.jpg">
+    <meta property="og:url" content="https://www.clinicabemviver.com.br">
+    <title>Nossa Clínica | Bem Viver</title>
+    <link rel="shortcut icon" href="img/Bem Viver2.png" type="image/x-icon">
+    <link rel="icon" href="img/Bem Viver2.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">
+                <img src="img/ChatGPT Image 23 de jan. de 2026, 22_34_48.png" alt="Bem Viver Logo" class="logo-img">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a href="clinica.html" class="active-link">A Clínica</a></li>
+                <li><a href="https://wa.me/5521968929336" class="btn-cta-nav">Agendar</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <main style="padding-top: 100px;">
+        
+        <section class="container text-center" style="margin-bottom: 30px;">
+            <h1>Conheça Nossa Estrutura</h1>
+            <p>Um ambiente moderno e acolhedor esperando por você em Belford Roxo.</p>
+        </section>
+
+        <section class="carousel-section">
+            <div class="carousel-container" id="carousel">
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=1000&auto=format&fit=crop" alt="Recepção">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Consultório">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Sala de Espera">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Equipamentos">
+                </div>
+            </div>
+            
+            <button class="carousel-btn prev-btn" onclick="scrollCarousel(-1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="carousel-btn next-btn" onclick="scrollCarousel(1)"><i class="fas fa-chevron-right"></i></button>
+        </section>
+
+        <section class="map-section container section-padding">
+            <div class="text-center">
+                <h2>Como Chegar</h2>
+                <p style="font-size: 1.1rem; color: #555; margin-bottom: 20px;">
+                    <i class="fas fa-map-pin" style="color: var(--primary-color);"></i> 
+                    Rua Buriti, Nº 259 - São Bernardo, Belford Roxo - RJ
+                </p>
+            </div>
+            
+            <div class="map-frame-wrapper">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.686463997756!2d-43.3999!3d-22.7766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9965386616424f%3A0x62804362143714b9!2sR.%20Buriti%2C%20259%20-%20S%C3%A3o%20Bernardo%2C%20Belford%20Roxo%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            
+            <div class="text-center" style="margin-top: 30px;">
+                <a href="https://www.google.com/maps/dir//R.+Buriti,+259+-+S%C3%A3o+Bernardo,+Belford+Roxo+-+RJ" target="_blank" class="btn-main">
+                    <i class="fas fa-location-arrow"></i> Traçar Rota no GPS
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-box">
+                <h4>Bem Viver</h4>
+                <p style="color: #ccc; font-size: 0.9rem;">
+                    Excelência em odontologia com foco no bem-estar e na tecnologia. 
+                    Transformando vidas através do sorriso.
+                </p>
+            </div>
+
+            <div class="footer-box">
+                <h4>Links Úteis</h4>
+                <ul>
+                    <li><a href="index.html">Página Inicial</a></li>
+                    <li><a href="servicos.html">Nossos Serviços</a></li>
+                    <li><a href="equipe.html">Nossa Equipe</a></li>
+                    <li><a href="https://wa.me/5521970741073">Agendar Consulta</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-box">
+                <h4>Fale Conosco</h4>
+                <ul>
+                    <li><i class="fas fa-phone"></i> (21) 97074-1073</li>
+                    <li><i class="fab fa-whatsapp"></i> WhatsApp Direto</li>
+                    <li><i class="fas fa-map-marker-alt"></i>  Rio de Janeiro, 
+                                                               Belford Roxo,
+                                                               São Bernardo, N°259</li>
+                    <li><i class="far fa-clock"></i> Qua - Sex: 09h às 17h</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="ludnai-footer">
+            <p>&copy; 2026 Clínica Odontológica Bem Viver.</p>
+            <p>Desenvolvido por <span>LUDNAI</span></p>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Script Específico apenas para o Carrossel desta página
+        function scrollCarousel(direction) {
+            const container = document.getElementById('carousel');
+            const scrollAmount = container.clientWidth * 0.8; // Rola 80% da largura
+            container.scrollBy({ left: scrollAmount * direction, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
