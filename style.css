@@ -104,6 +104,31 @@ header {
     animation: fadeInUp 1s ease forwards 0.8s;
 }
 
+
+@media (max-width: 769px) {
+  .hero-doctor img {
+    max-height: 90%; /* Ajusta o tamanho do doutor */
+    width: auto;
+    margin-bottom: -5px; /* Garante que não haja espaço embaixo */
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.1)); /* Sombra suave no recorte */
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s ease forwards 0.8s;
+}
+}
+
+@media (max-width: 969px) {
+  .hero-doctor img {
+    max-height: 90%; /* Ajusta o tamanho do doutor */
+    width: auto;
+    margin-bottom: -5px; /* Garante que não haja espaço embaixo */
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.1)); /* Sombra suave no recorte */
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s ease forwards 0.8s;
+}
+}
+
     .hero-text {
         text-align: left; /* Centraliza o texto quando não tem o doutor */
     }
@@ -360,7 +385,7 @@ footer {
 @media (max-width:920px) {
     
     .navbar {
-        height: 90px;
+        height: 85px;
     }
    
 }
@@ -407,6 +432,13 @@ footer {
 }
 }
 
+@media (max-width: 667px) {
+    .hero-layout { height: 100%; gap: 0px;  }
+    }
+    @media (max-width: 967px) {
+    .hero-layout { height: 100%; gap: 0px;  }
+    }
+
 @media (max-width: 600px) {
     .text-center { margin-bottom: 25px;}
     }
@@ -452,7 +484,7 @@ footer {
 @media (max-width: 969px) {
     .logo-img {
     margin-top: -10px;
-    height: 168px;
+    height: 140px;
     image-rendering: crisp-edges;
     object-fit: contain;
     /* image-rendering: -webkit-optimize-contrast; */
