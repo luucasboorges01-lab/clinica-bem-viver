@@ -9,9 +9,9 @@
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="Clínica Bem Viver - Seu Sorriso é Nossa Prioridade">
     <meta property="og:description" content="Dentistas especializados em Belford Roxo. Tecnologia e atendimento humanizado.">
-    <meta property="og:image" content="link-da-sua-logo-ou-foto.jpg">
+    <meta property="og:image" content="https://www.clinicabemviver.com.br/img/Bem%20Viver2.png">
     <meta property="og:url" content="https://www.clinicabemviver.com.br">
-    <title>Bem Viver - Home </title >
+    <title>Bem Viver - Home</title>
     <link rel="shortcut icon" href="img/Bem Viver2.png" type="image/x-icon">
     <link rel="icon" href="img/Bem Viver2.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
@@ -20,16 +20,17 @@
 </head>
 <body>
     <header>
-        <div class="container navbar">
-            <a href="index.html" class="logo"><img src="img/ChatGPT Image 23 de jan. de 2026, 22_34_48.png" alt="Logo" class="logo-img" ></a>
-            <ul class="nav-links">
+            <div class="container navbar">
+                <a href="index.html" class="logo"><img src="img/ChatGPT Image 23 de jan. de 2026, 22_34_48.png" alt="Logo" class="logo-img" ></a>
+                <ul class="nav-links" id="primary-navigation">
                 <li><a href="index.html" class="active-link">Home</a></li>
                 <li><a href="servicos.html">Serviços</a></li>
-                <li><a href="equipe.html">Equipe</a></li>
                 <li><a href="clinica.html">Clínica</a></li>
                 <li><a href="https://wa.me/5521970741073" class="btn-cta-nav">Agendar</a></li>
-            </ul>
-            <div class="hamburger" onclick="toggleMenu()"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
+                </ul>
+            <button class="hamburger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="primary-navigation" onclick="toggleMenu()">
+            <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </button>
         </div>
     </header>
 

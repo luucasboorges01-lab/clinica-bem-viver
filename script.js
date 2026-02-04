@@ -1,7 +1,10 @@
 // Menu Mobile
 function toggleMenu() {
     const nav = document.querySelector('.nav-links');
+    const button = document.querySelector('.hamburger');
     nav.classList.toggle('active');
+    const isExpanded = nav.classList.contains('active');
+    button.setAttribute('aria-expanded', isExpanded);
 }
 
 // Animação ao Scrollar (Intersection Observer)

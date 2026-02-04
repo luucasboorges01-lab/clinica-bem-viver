@@ -9,7 +9,7 @@
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="Clínica Bem Viver - Seu Sorriso é Nossa Prioridade">
     <meta property="og:description" content="Dentistas especializados em Belford Roxo. Tecnologia e atendimento humanizado.">
-    <meta property="og:image" content="link-da-sua-logo-ou-foto.jpg">
+    <meta property="og:image" content="https://www.clinicabemviver.com.br/img/Bem%20Viver2.png">
     <meta property="og:url" content="https://www.clinicabemviver.com.br">
     <title>Bem Viver - Serviços</title >
     <link rel="shortcut icon" href="img/Bem Viver2.png" type="image/x-icon">
@@ -22,15 +22,16 @@
     <header>
         <div class="container navbar">
             <a href="index.html" class="logo"><img src="img/ChatGPT Image 23 de jan. de 2026, 22_34_48.png" alt="Logo" class="logo-img"></a>
-            <ul class="nav-links">
+            <ul class="nav-links" id="primary-navigation">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="servicos.html" class="active-link">Serviços</a></li>
-                <li><a href="equipe.html">Equipe</a></li>
                 <li><a href="clinica.html">A Clínica</a></li>
                 <li><a href="https://wa.me/5521970741073" class="btn-cta-nav">Agendar</a></li>
             </ul>
-            <div class="hamburger" onclick="toggleMenu()"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
-        </div>
+            <button class="hamburger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="primary-navigation" onclick="toggleMenu()">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </button>     
+           </div>
     </header>
 
     <div class="page-header">
@@ -49,8 +50,8 @@
         <div class="card-body">
             <h3>Limpeza (Profilaxia)</h3>
             <p>Remoção de placa bacteriana e manchas superficiais para prevenir cáries e gengivite.</p>
-            <a href="https://wa.me/5521970741073?text=Olá, gostaria de agendar uma Limpeza." class="btn-card" target="_blank">Agendar</a>
-        </div>
+            <a href="https://wa.me/5521970741073?text=Olá, gostaria de agendar uma Limpeza." class="btn-card" target="_blank" rel="noopener noreferrer">Agendar</a>
+            </div>
     </div>
 
     <div class="service-card">
@@ -58,8 +59,8 @@
         <div class="card-body">
             <h3>Restauração</h3>
             <p>Recuperação da forma e função do dente afetado pela cárie, usando resina estética.</p>
-            <a href="https://wa.me/5521970741073?text=Olá, preciso de uma Restauração." class="btn-card" target="_blank">Agendar</a>
-        </div>
+            <a href="https://wa.me/5521970741073?text=Olá, preciso de uma Restauração." class="btn-card" target="_blank" rel="noopener noreferrer">Agendar</a>
+            </div>
     </div>
 
     <div class="service-card">
@@ -67,7 +68,7 @@
         <div class="card-body">
             <h3>Canal (Endodontia)</h3>
             <p>Tratamento da parte interna do dente (polpa) para aliviar a dor e salvar o dente.</p>
-            <a href="https://wa.me/5521970741073?text=Olá, estou com dor, preciso ver sobre Canal." class="btn-card" target="_blank">Agendar</a>
+            <a href="https://wa.me/5521970741073?text=Olá, estou com dor, preciso ver sobre Canal." class="btn-card" target="_blank" rel="noopener noreferrer">Agendar</a>
         </div>
     </div>
 
@@ -76,7 +77,7 @@
     <div class="card-body">
         <h3>Implantes Dentários</h3>
         <p>Pinos de titânio que substituem a raiz do dente, oferecendo fixação segura para próteses.</p>
-        <a href="https://wa.me/5521970741073?text=Olá, tenho interesse em Implantes." class="btn-card" target="_blank">Agendar</a>
+        <a href="https://wa.me/5521970741073?text=Olá, tenho interesse em Implantes." class="btn-card" target="_blank" rel="noopener noreferrer">Agendar</a>
     </div>
 </div>
 
@@ -85,7 +86,7 @@
         <div class="card-body">
             <h3>Aparelhos (Ortodontia)</h3>
             <p>Correção da posição dos dentes com aparelhos fixos, estéticos ou alinhadores.</p>
-            <a href="https://wa.me/5521970741073?text=Olá, quero saber sobre Aparelhos Ortodônticos." class="btn-card" target="_blank">Agendar</a>
+            <a href="https://wa.me/5521970741073?text=Olá, quero saber sobre Aparelhos Ortodônticos." class="btn-card" target="_blank" rel="noopener noreferrer">Agendar</a>
         </div>
     </div>
 
@@ -94,7 +95,7 @@
         <div class="card-body">
             <h3>Clareamento Dental</h3>
             <p>Procedimento estético seguro para deixar seus dentes mais brancos e o sorriso iluminado.</p>
-            <a href="https://wa.me/5521970741073?text=Olá, quero fazer um Clareamento." class="btn-card" target="_blank">Agendar</a>
+            <a href="https://wa.me/5521970741073?text=Olá, quero fazer um Clareamento." class="btn-card" target="_blank" rel="noopener noreferrer">Agendar</a>
         </div>
     </div>
 
@@ -103,7 +104,7 @@
         <div class="card-body">
             <h3>Próteses Dentárias</h3>
             <p>Reposição de dentes perdidos devolvendo a estética e a capacidade de mastigação.</p>
-            <a href="https://wa.me/5521970741073?text=Olá, gostaria de saber sobre Próteses." class="btn-card" target="_blank">Agendar</a>
+            <a href="https://wa.me/5521970741073?text=Olá, gostaria de saber sobre Próteses." class="btn-card" target="_blank" rel="noopener noreferrer">Agendar</a>
         </div>
     </div>
 
@@ -112,7 +113,7 @@
         <div class="card-body">
             <h3>Raspagem de Tártaro</h3>
             <p>Limpeza profunda para remover cálculos dentários e tratar a saúde da gengiva.</p>
-            <a href="https://wa.me/5521970741073?text=Olá, preciso fazer uma Raspagem." class="btn-card" target="_blank">Agendar</a>
+            <a href="https://wa.me/5521970741073?text=Olá, preciso fazer uma Raspagem." class="btn-card" target="_blank" rel="noopener noreferrer">Agendar</a>
         </div>
     </div>
 
@@ -121,7 +122,7 @@
         <div class="card-body">
             <h3>Extração (Exodontia)</h3>
             <p>Remoção cirúrgica de dentes comprometidos ou sisos inclusos com total segurança.</p>
-            <a href="https://wa.me/5521970741073?text=Olá, preciso agendar uma Extração (Siso ou Normal)." class="btn-card" target="_blank">Agendar</a>
+            <a href="https://wa.me/5521970741073?text=Olá, preciso agendar uma Extração (Siso ou Normal)." class="btn-card" target="_blank" rel="noopener noreferrer">Agendar</a>
         </div>
     </div>
 
@@ -130,7 +131,7 @@
         <div class="card-body">
             <h3>Radiologia</h3>
             <p>Exames de imagem precisos para diagnóstico correto e planejamento do tratamento.</p>
-            <a href="https://wa.me/5521970741073?text=Olá, preciso de informações sobre Radiologia." class="btn-card" target="_blank">Agendar</a>
+            <a href="https://wa.me/5521970741073?text=Olá, preciso de informações sobre Radiologia." class="btn-card" target="_blank" rel="noopener noreferrer">Agendar</a>
         </div>
     </div>
 
@@ -139,7 +140,7 @@
         <div class="card-body">
             <h3>Coroa Cerâmica</h3>
             <p>Capa protetora de alta resistência e estética idêntica ao dente natural.</p>
-            <a href="https://wa.me/5521970741073?text=Olá, tenho interesse em Coroa Cerâmica." class="btn-card" target="_blank">Agendar</a>
+            <a href="https://wa.me/5521970741073?text=Olá, tenho interesse em Coroa Cerâmica." class="btn-card" target="_blank" rel="noopener noreferrer">Agendar</a>
         </div>
     </div>
 
@@ -148,7 +149,7 @@
         <div class="card-body">
             <h3>Blocos (Onlay/Inlay)</h3>
             <p>Restaurações indiretas em metal ou resina para grandes perdas de estrutura dental.</p>
-            <a href="https://wa.me/5521970741073?text=Olá, quero saber sobre Blocos Dentários." class="btn-card" target="_blank">Agendar</a>
+            <a href="https://wa.me/5521970741073?text=Olá, quero saber sobre Blocos Dentários." class="btn-card" target="_blank" rel="noopener noreferrer">Agendar</a>
         </div>
     </div>
 
@@ -157,7 +158,7 @@
         <div class="card-body">
             <h3>Ponte Fixa</h3>
             <p>Estrutura fixa que preenche o espaço de um ou mais dentes ausentes.</p>
-            <a href="https://wa.me/5521970741073?text=Olá, gostaria de saber sobre Ponte Fixa." class="btn-card" target="_blank">Agendar</a>
+            <a href="https://wa.me/5521970741073?text=Olá, gostaria de saber sobre Ponte Fixa." class="btn-card" target="_blank" rel="noopener noreferrer">Agendar</a>
         </div>
     </div>
 
@@ -166,7 +167,7 @@
         <div class="card-body">
             <h3>Roach (PPR)</h3>
             <p>Prótese Parcial Removível com estrutura metálica, resistente e estável.</p>
-            <a href="https://wa.me/5521970741073?text=Olá, quero saber mais sobre Roach." class="btn-card" target="_blank">Agendar</a>
+            <a href="https://wa.me/5521970741073?text=Olá, quero saber mais sobre Roach." class="btn-card" target="_blank" rel="noopener noreferrer">Agendar</a>
         </div>
     </div>
 
@@ -175,7 +176,7 @@
         <div class="card-body">
             <h3>Drenagem de Abcesso</h3>
             <p>Atendimento de urgência para alívio de dor e infecção aguda.</p>
-            <a href="https://wa.me/5521970741073?text=URGENTE: Preciso de drenagem de abcesso." class="btn-card" target="_blank">Agendar</a>
+            <a href="https://wa.me/5521970741073?text=URGENTE: Preciso de drenagem de abcesso." class="btn-card" target="_blank" rel="noopener noreferrer">Agendar</a>
         </div>
     </div>
 
