@@ -68,7 +68,7 @@ header {
 }
 
 .hero-doctor img {
-    max-height: 90%; /* Ajusta o tamanho do doutor */
+    max-height: 100%; /* Ajusta o tamanho do doutor */
     width: auto;
     margin-bottom: -5px; /* Garante que não haja espaço embaixo */
     filter: drop-shadow(0 10px 20px rgba(0,0,0,0.1)); /* Sombra suave no recorte */
@@ -168,7 +168,7 @@ header {
 .btn-main:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(46, 139, 87, 0.6); }
 
 /* --- GRIDS E CARDS --- */
-.section-padding { padding: 75px 0; }
+.section-padding { margin-top: 45px; padding: 75px 0; }
 .text-center { 
     text-align: center; 
     margin-bottom: 50px;
