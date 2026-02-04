@@ -25,10 +25,10 @@ header {
     position: fixed; width: 100%; top: 0; z-index: 1000;
 }
 .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; text-align: center; }
-.navbar { display: flex; justify-content: space-between; align-items: center; height: 85px; }
+.navbar { display: flex; justify-content: space-between; align-items: center; height: 80px; }
 /* .logo-img { height: 110px; width: auto; } */
 
-.nav-links { display: flex; gap: 30px; }
+.nav-links { display: flex; gap: 25px; font-size: 14px;}
 .nav-links a { font-weight: 600; transition: var(--transition); position: relative; }
 .nav-links a:hover { color: var(--primary-color); }
 .nav-links .active-link { color: var(--primary-color); }
@@ -55,6 +55,7 @@ header {
 }
 
 .hero-text {
+    margin-top: 30px;
     flex: 1;
     text-align: left; /* Alinhado à esquerda para dar espaço à imagem */
 }
@@ -450,7 +451,7 @@ footer {
 /* Atualize esta classe no seu style.css */
 .logo-img {
     margin-top: -5px;   
-    height: 160px; /* Tamanho visual na tela */
+    height: 132px; /* Tamanho visual na tela */
     width: auto;
     image-rendering: crisp-edges ; /* Firefox */
     /* image-rendering: pixelated;   Chrome, Edge  Mantém a proporção */
