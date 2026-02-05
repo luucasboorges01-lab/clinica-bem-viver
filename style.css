@@ -624,3 +624,85 @@ footer {
     .prev-btn { left: 10px; }
     .next-btn { right: 10px; }
 }
+
+/* --- PÁGINA EQUIPE / DENTISTAS (Minimalista) --- */
+
+.team-grid-text {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 Colunas no PC */
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.team-card-minimal {
+    background: #fff;
+    padding: 40px 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05); /* Sombra bem leve e moderna */
+    border-top: 5px solid #006400; /* Detalhe verde no topo para dar cor */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card-minimal:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
+
+/* Ícone no lugar da foto */
+.icon-header {
+    font-size: 3rem;
+    color: #2E8B57; /* Verde SeaGreen */
+    margin-bottom: 20px;
+    background: #f0fdf4;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team-card-minimal h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+/* Linha separadora pequena */
+.separator {
+    width: 40px;
+    height: 3px;
+    background-color: #ddd;
+    margin: 0 auto 20px auto;
+}
+
+.specialties-list {
+    list-style: none;
+    padding: 0;
+}
+
+.specialties-list li {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 900px) {
+    .team-grid-text {
+        grid-template-columns: repeat(2, 1fr); /* 2 por linha no Tablet */
+    }
+}
+
+@media (max-width: 600px) {
+    .team-grid-text {
+        grid-template-columns: 1fr; /* Um embaixo do outro no Celular */
+    }
+    
+    .team-card-minimal {
+        padding: 30px 15px;
+    }
+}
